@@ -2,7 +2,7 @@ name: "Taller de estadística con R"
 title: "Taller de estadística con R"
 type: inverse
 left:
-  - text: "Nosotros"
+  - text: "Docente"
     href: ./aboutme-es.html
   - text: "Taller"
     href: ./index.html
