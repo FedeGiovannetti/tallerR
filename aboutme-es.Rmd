@@ -1,0 +1,26 @@
+---
+title: "**Docente**"
+output: 
+  html_document:
+    toc: false
+    # toc_depth: 2
+    # toc_float:
+    #   collapsed: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+<br>
+
+![](images/Foto%20carnet%20giovannetti.jpg){width="253"}
+
+## Dr. Federico Giovannetti
+
+Talleres, trabajos y publicaciones: [linktr.ee/fedegiova](https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Ffedegiova&e=AT2IcP3VnhlPUinmU0Xtm_j4lSBxdGzqfNpMcUFzNFJAPw5N-V-8NuMUTv292Igs_QzT8k2GlNhjCrwXotqTb0CTo6sfd-a8AKjqHg)
+
+LinkedIn: [www.linkedin.com/in/fedegiovannetti](www.linkedin.com/in/fedegiovannetti)
+
+Contacto: [giovannettipsi\@gmail.com](mailto:giovannettipsi@gmail.com){.email}

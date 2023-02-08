@@ -1,0 +1,62 @@
+---
+pagetitle: "Taller Inicial de Estadística con R"
+title: "**Taller Inicial de Estadística con R**"
+subtitle: "Dr. Federico Giovannetti"
+output: 
+  html_document: 
+    fig_width: 9
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+
+library(tidyverse)
+library(metathis)
+library(knitr)
+
+```
+
+```{css, echo = FALSE}
+
+div#header h1.title, div#header h3.subtitle, div#header h4.author, div#header h4.date {
+  text-align: center
+}
+
+```
+
+```{r, echo=FALSE}
+
+meta() %>%
+  # meta_description(
+  #   "El objetivo de este sitio es poner a disposición de la comunidad científica un análisis anual de la evolución de becas e ingresos otorgados por el CONICET (Argentina) dentro de la Comisión de Psicología y Ciencias de la Educación. A pesar de que los datos presentados aquí sean de dominio público, no siempre es accesible ni es informado a los/as trabajadores/as de CONICET. Esperamos que la información disponible aquí sea de utilidad para continuar avanzando en la conquista de derechos laborales y hacia una psicología con más ciencia."
+  # ) %>% 
+  meta_name("github-repo" = "tallerR") %>% 
+  meta_viewport() %>% 
+  meta_social(
+    title = "Taller Inicial de Estadística con R",
+    url = "https://fedegiovannetti.github.io/tallerR/",
+    # image = "https://raw.githubusercontent.com/FedeGiovannetti/ks7conicet/520996ccff474eb6c90f5e80b798067669b9c127/thumbnail.png",
+    og_type = "website",
+    # og_author = c("Garrett Grolemund", "Hadley Wickham"),
+    twitter_card_type = "summary",
+    twitter_creator = "@fedegiovannetti"
+  )
+
+
+```
+
+**Introducción**
+
+El taller inicial de análisis estadístico con R tiene como objetivo brindar herramientas básicas para introducirse en el uso del lenguaje de programación R. Para participar del taller no se requieren conocimientos previos de programación, mas sí se requieren conocimientos básicos sobre estadística.
+
+Esta página servirá de guía para acceder a los pdf de las clases y a los datasets que estaremos utilizando. Todo se encuentra disponible en [esta carpeta de Drive](https://drive.google.com/drive/folders/1CiZjeteRt1y2YneOGHESdPdYxLMFP-6V?usp=sharing) donde además encontrarás los scripts y videos de cada clase en una carpeta correspondiente a tu grupo.
+
+<br>
+
+[![](boton_programa.png){width="180"}](https://drive.google.com/file/d/1AY9uhL98onHmJYhzQCyw0J3k39STuciz/view?usp=sharing)![](boton_datasets.png){width="180"}[![](boton_instalacion-03.png){width="180"}](https://drive.google.com/file/d/1C3jxaGsFVwUaK5ZJbSb4lpL2-ERg04yw/view?usp=sharing)
+
+<br>
+
+[![](boton_clase-04.png){width="180"}](https://drive.google.com/file/d/14tvUhr4BoKAydMKAhQc0u3_XA0bpALu3/view?usp=sharing)[![](boton_clase-05.png){width="180"}](https://drive.google.com/file/d/1zNsu3Q7KrquY70jhF5tGjEwwcDhA0XO-/view?usp=sharing)[![](boton_clase-06.png){width="180"}](https://drive.google.com/file/d/1LXZ9u8sHRX_qQZ6kGVUnSi581Ch9VPJf/view?usp=sharing)
